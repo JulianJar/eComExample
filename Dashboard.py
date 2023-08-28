@@ -16,7 +16,7 @@ if fl is not None:
     st.write(filename)
     df = pd.read_csv(filename, encoding = "ISO-8859-1")
 else:
-    os.chdir(r"/Users/julianjay/Downloads/Dashboard.xls")
+    os.chdir(r"https://github.com/JulianJar/eComExample/")
     df = pd.read_excel("Superstore.xls")
 
 col1, col2 = st.columns((2))
